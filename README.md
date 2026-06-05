@@ -49,14 +49,6 @@ The simpler second-order model was used for PID tuning:
 
 $$G(s)=\frac{98.99s+0.2997}{s^2+38.99s+0.1696}$$
 
-The identified models can be summarized directly as:
-
-| Model | Transfer function | Reported fit | Use |
-|---|---|---:|---|
-| Higher-order candidate | $G_1(s)=\frac{180.4s^2+11.48s+0.03416}{s^3+72.49s^2+4.596s+0.0193}$ | 98.82% | More complex candidate model |
-| Selected model | $G_2(s)=\frac{98.99s+0.2997}{s^2+38.99s+0.1696}$ | 97.45% | Used for PID tuning because it is simpler while keeping a high fit |
-
-
 The final Arduino code implements the digital controller using the reported controller gains and converts the controller output into a PWM value for the hardware driver path.
 
 
