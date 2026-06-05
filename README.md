@@ -114,7 +114,7 @@ fritzing/peltier-temperature-control-system.fzz
 The organized technical report is available at:
 
 ```text
-docs/peltier-temperature-control-system-report.pdf
+![Peltier Temperature Control System Report](https://drive.google.com/file/d/1nHYplwn8vRjBNS0EIc8F_VQeHuGvX10W/view?usp=sharing)
 ```
 
 ## Limitations
