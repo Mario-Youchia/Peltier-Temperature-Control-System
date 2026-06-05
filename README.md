@@ -118,3 +118,15 @@ docs/peltier-temperature-control-system-report.pdf
 ## Limitations
 
 This is a course-level control-systems project focused on PID temperature control, system identification, and Arduino-based hardware implementation. It is not intended to be a production-ready temperature-control product.
+```cpp
+Input = sensors.getTempCByIndex(0);
+error = Setpoint - Input;
+
+integral += error;
+derivative = error - previousError;
+
+Output = (Kp * error) + (Ki * integral) + (Kd * derivative);
+previousError = error;
+
+analogWrite(pwmPin, Output);
+```
