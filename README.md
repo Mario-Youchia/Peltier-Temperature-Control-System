@@ -20,7 +20,7 @@ The schematic view shows the Arduino-based circuit with the LCD, temperature sen
 
 The Simulink model represents the closed-loop PID controller around the identified plant model.
 
-![PID step response](/images/projects/peltier-temperature-control-system/peltier-pid-step-response.png)
+![PID step response](public/images/projects/peltier-temperature-control-system/peltier-pid-step-response.png)
 
 The PID response shows the controlled system reaching the target value with very small overshoot and reduced steady-state error compared with the pre-PID response.
 
